@@ -60,7 +60,7 @@ https://mercury.swin.edu.au/cos10005/s106206969/assignment2/index.html
 3. GITHUB REPOSITORY LINK
 -------------------------
 
-[INSERT GITHUB REPOSITORY LINK HERE]
+https://github.com/danhgiakhanhtruong/wd_assign_2
 
 
 4. EXPLANATION OF JAVASCRIPT VALIDATION LOGIC (PLAIN ENGLISH)
