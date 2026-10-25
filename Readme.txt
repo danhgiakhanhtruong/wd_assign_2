@@ -20,7 +20,6 @@ Pages
   recommend.html    Recommendations. Tick genres, viewing preferences and age
                     ratings, then press Apply to filter the movie list. Clicking
                     a poster shows details as on the listing page.
-  watchlist.html    Watchlist page. [DESCRIBE WHAT THIS PAGE DOES]
   booking.html      Booking form. Choose a movie, pick a screening, enter
                     ticket details and payment details.
   register.html     Account registration form, including preferred genres and
@@ -40,8 +39,6 @@ Folders and files
                     Country list used to fill the country dropdown on the
                     registration page.
   images/           Movie posters.
-  jquery.min.js     jQuery library, included on some pages. [DELETE THIS LINE IF
-                    UNUSED]
 
 How the pages connect
   - The movie list and recommendation pages load movies.json using fetch().
@@ -63,13 +60,14 @@ https://mercury.swin.edu.au/cos10005/s106206969/assignment2/index.html
 https://github.com/danhgiakhanhtruong/wd_assign_2
 
 
-4. EXPLANATION OF JAVASCRIPT VALIDATION LOGIC (PLAIN ENGLISH)
+4. EXPLANATION OF JAVASCRIPT VALIDATION LOGIC
 -------------------------------------------------------------
 
 General approach
   When the user presses Register (or the submit button on the booking form),
   JavaScript runs before anything is sent. It checks every field one at a
   time. Each check either says "this is fine" or gives a short error message.
+
   All the error messages are collected into one list and shown together in the
   error box just above the buttons. If there is at least one error, the form
   is stopped and nothing is submitted. When the user fixes the problems and
@@ -132,7 +130,7 @@ Other form behaviour (not validation, but related)
   - The forms post to a test script on Mercury. No accounts or bookings are
     actually saved, and no payment is processed.
   - The registration form does not force the user to choose any preferred
-    genres. [REMOVE OR CHANGE IF YOU ADD THIS CHECK]
+    genres. 
   - Phone numbers accept spaces and dashes but not other formats such as a
     leading plus sign.
   - Voucher codes are only checked for length/format, not against a real list.
@@ -141,16 +139,13 @@ Other form behaviour (not validation, but related)
   - Movie, screening and country data are read from JSON files using fetch(),
     so the site must be opened through a web server (not by double-clicking
     the HTML file) and the folder structure must be kept as described above.
-  - [ADD ANY OTHER ISSUES YOU HAVE NOTICED]
 
 
 6. REFERENCES
 -------------
 
-  [LIST ANY SOURCES USED, FOR EXAMPLE:]
-  - MDN Web Docs - https://developer.mozilla.org
   - W3Schools - https://www.w3schools.com
-  - Movie posters and descriptions: [SOURCE]
+  - Movie posters and descriptions: https://www.imdb.com/
+  - Countries & regions .json: https://github.com/country-regions/country-region-data
   - Assistance from an AI tool (Claude, by Anthropic) for code review,
-    debugging help and drafting this readme. [CHECK YOUR UNIT'S AI USE POLICY
-    AND DECLARE USE AS REQUIRED]
+    debugging help and drafting this readme. 
