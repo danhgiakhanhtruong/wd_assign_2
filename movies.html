@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">	
+	<meta name="description" content="Web development">
+	<meta name="keywords" content="Movie Platform">
+	<meta name="author" content="Danh Gia Khanh">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/script.js"></script>
+
+	<title>Listings - SuperMovie</title>
+</head>
+<body>
+	<header>
+        <h1>SuperMovie</h1>
+    </header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="movies.html">Listing</a></li>
+			<li><a href="recommend.html">Recommendations</a></li>
+			<li><a href="booking.html">Booking</a></li>
+			<li><a href="register.html">Register</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Select a movie to book</h2>
+		<p id="status"></p>
+		<div id="movieList"></div>
+	</main>
+	<div id="movieInfo">
+		<img id="infoPoster" src="#" alt="#" width="140px" height="100%">
+		<h2 id="infoTitle"></h2>
+		<ul>
+			<li><strong>Genres:</strong>                <span id="infoGenre"></span></li>
+			<li><strong>Age Rating:</strong>            <span id="infoAgeRating"></span></li>
+			<li><strong>Runtime:</strong>               <span id="infoRuntime"></span></li>
+			<li><strong>Viewing Preference(s):</strong> <span id="infoViewpref"></span></li>
+			<li><strong>Description:</strong>           <span id="infoDescription"></span></li>
+			<li><strong>Ticket Prices:</strong>         <span id="infoTicketPrices"></span></li>
+		</ul>
+		<table id="infoScreenings">
+			<thead>
+				<tr>
+					<th scope="col">Time</th>
+					<th scope="col">Location</th>
+				</tr>
+        	</thead>
+			<tbody id="screeningRows"></tbody>
+		</table>
+		
+		<p><a href="booking.html" id="btnBook">Book this Movie</a></p>
+	</div>
+	<footer>
+		<p>&copy; 2026 SuperMovie</p>
+	</footer>
+</body>

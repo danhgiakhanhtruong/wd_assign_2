@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">	
+	<meta name="description" content="Web development">
+	<meta name="keywords" content="Movie Platform">
+	<meta name="author" content="Danh Gia Khanh">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/script.js"></script>
+
+	<title>Booking - SuperMovie</title>
+</head>
+<body>
+	<header>
+        <h1>SuperMovie</h1>
+    </header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="movies.html">Listing</a></li>
+			<li><a href="recommend.html">Recommendations</a></li>
+			<li><a href="booking.html">Booking</a></li>
+			<li><a href="register.html">Register</a></li>
+		</ul>
+	</nav>
+		<main>
+		<h2>Book a Movie</h2>
+		<form id="bookform" method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+			<fieldset>
+				<legend>Personal Information</legend>
+					<p> <label for="fullname">Full Name:</label>
+					<input type="text" name="fullname" id="fullname"></p>
+
+					<p> <label for="email">Email:</label>
+					<input type="text" name="email" id="email"></p>
+
+					<p> <label for="phone">Phone Number:</label>
+					<input type="text" name="phone" id="phone"></p>
+			</fieldset><br>
+			<fieldset>
+				<legend>Movie Booking</legend>
+					<p id="status1"></p>	
+				
+					<p> <label for="movie">Movie:</label>
+					<select name="movie" id="movie"></select>
+					<input type="button" id="btnMovieUpdate" value="Update">
+					</p>
+
+					<input type="hidden" name="screeningChoice" id="screeningChoice"> <!-- this will be sent instead -->
+					<table id="infoScreenings">
+						<thead>
+							<tr>
+								<th scope="col">Time</th>
+								<th scope="col">Location</th>
+								<th scope="col">Select</th>
+							</tr>
+        				</thead>
+						<tbody id="screeningRows"></tbody>
+					</table>
+
+					<p> <label for="ticketAmt">Ticket Number:</label>
+					<input type="text" name="ticketAmt" id="ticketAmt"></p>
+
+					<p> <label for="ticketType">Ticket Type:</label>
+					<select name="ticketType" id="ticketType">
+						<option value="standard">Standard</option>
+  						<option value="student">Student</option>
+  						<option value="gold">Gold</option>
+					</select></p>
+
+					<p> <label for="requests">Special Requests</label><br>
+					<textarea name="requests" id="requests"></textarea>
+			</fieldset><br>
+			<fieldset>
+				<legend>Payment Information</legend>
+
+				<h3>Ticket Price: <span id="ticketPrice"></span></h3>
+
+				<p> Payment method:
+				<input type="radio" name="payMethod" id="voucher" value="voucher"><label for="voucher">Voucher</label>
+				<input type="radio" name="payMethod" id="onlinepay" value="onlinepay"><label for="onlinepay">Online payment</label>
+				</p>
+
+				<div id="methodFill">
+					<div id="voucherFill" hidden>
+						<label for="voucherCode">Code:</label>
+						<input type="text" name="voucherCode" id="voucherCode">
+					</div>
+					<div id="onlineFill" hidden>
+						<p> Card:
+						<input type="radio" name="cardType" id="VisaMasterCard" value="visa/mastercard"><label for="VisaMasterCard">Visa/Mastercard</label>
+						<input type="radio" name="cardType" id="Amex" value="amex"><label for="Amex">Amex</label>
+						</p>
+						
+						<label for="cardNumber">Card Number:</label>
+						<input type="text" name="cardNumber" id="cardNumber">
+					</div>
+				</div>
+
+				<p> <label for="billing">Billing address:</label>
+				<input type="text" name="billing" id="billing">
+				<input type="checkbox" id="sameEmail"><label for="sameEmail">Same as email address</label></p>
+			</fieldset>
+
+			<div id="errors" role="alert"></div>
+			<input type="submit" value="Register">
+			<input type="reset" value="Reset">
+		</div>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2026 SuperMovie</p>
+	</footer>
+</body>

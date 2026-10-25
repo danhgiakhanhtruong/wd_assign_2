@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">	
+	<meta name="description" content="Web development">
+	<meta name="keywords" content="Movie Platform">
+	<meta name="author" content="Danh Gia Khanh">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/script.js"></script>
+
+	<title>Registration - SuperMovie</title>
+</head>
+<body>
+	<header>
+        <h1>SuperMovie</h1>
+    </header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="movies.html">Listing</a></li>
+			<li><a href="recommend.html">Recommendations</a></li>
+			<li><a href="booking.html">Booking</a></li>
+			<li><a href="register.html">Register</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Register your Account</h2>
+		<form id="regform" method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+			<fieldset>
+				<legend>Register your Account</legend>
+
+					<p> <label for="user">Username:</label>
+					<input type="text" name="user" id="user"></p>
+
+					<p> <label for="email">Email:</label>
+					<input type="text" name="email" id="email"></p>
+
+					<p> <label for="phone">Phone Number:</label>
+					<input type="text" name="phone" id="phone"></p>
+
+					<p> <label for="pw1">Password:</label>
+					<input type="password" name="pw1" id="pw1"></p>
+
+					<p> <label for="pw2">Confirm Password:</label>
+					<input type="password" name="pw2" id="pw2"></p>
+
+					<p> Gender:
+					<input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+					<input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+					<input type="radio" name="gender" id="undisclosed" value="undisclosed"><label for="undisclosed">Rather not say</label>
+					</p>
+
+					<p> <label for="genreInput">Preferred Genres:</label>
+					<input type="text" id="genreInput" list="genreOptions" placeholder="Pick genres here">
+					<button type="button" id="btnAddGenre">Add</button>
+					<datalist id="genreOptions"></datalist>
+
+					<input type="hidden" name="prefgenres" id="genresHidden"> <!-- this will be submitted to the servers instead -->
+					<div id="selectedGenres">
+						<p id="status1"></p>
+					</div>
+					</p>
+
+					<p> <label for="country">Country:</label>
+					<select name="country" id="country"></select>
+					<p id="status2"></p>
+					</p>
+			</fieldset>
+
+			<div id="errors" role="alert"></div>
+			<input type="submit" value="Register">
+			<input type="reset" value="Reset">
+		</div>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2026 SuperMovie</p>
+	</footer>
+</body>
