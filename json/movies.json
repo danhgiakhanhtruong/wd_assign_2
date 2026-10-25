@@ -1,0 +1,164 @@
+[
+    {
+        "title": "Project Hail Mary",
+        "year": "2026",
+        "genre": ["Science Fiction", "Comedy", "Adventure", "Drama"],
+        "agerating": "PG-13",
+        "runtime": "2h 36m",
+        "viewpref": ["Family", "Friends"],
+        "description": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key.",
+        "image": "images/phm.jpg",
+        "ticketprices": {
+            "standard": 22, 
+            "student": 15, 
+            "gold": 30
+        }, 
+        "screenings": [
+            {
+                "time": "2026-10-27T00:15:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": true
+            },
+            {
+                "time": "2026-10-28T01:15:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": false
+            }
+        ]
+    },
+    {
+        "title": "Weapons",
+        "year": "2025",
+        "genre": ["Horror", "Psychological Horror", "Mystery"],
+        "agerating": "R",
+        "runtime": "2h 8m",
+        "viewpref": ["Solo", "Friends"],
+        "description": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+        "image": "images/weapons.jpg",
+        "ticketprices": {
+            "standard": 22, 
+            "student": 15, 
+            "gold": 30
+        }, 
+        "screenings": [
+            {
+                "time": "2026-10-27T01:15:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": true
+            },
+            {
+                "time": "2026-10-28T00:15:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": true
+            }
+        ]
+    },
+    {
+        "title": "A Poet",
+        "year": "2025",
+        "genre": ["Spanish", "Comedy", "Drama"],
+        "agerating": "Unrated",
+        "runtime": "2h 3m",
+        "viewpref": ["Solo"],
+        "description": "An aging poet finds purpose mentoring Yurlady, a talented teen, though exposing her to the poetry scene might be unwise. His own poetic pursuits led nowhere, leaving him a stereotypical obscure writer.",
+        "image": "images/apoet.jpg",
+        "ticketprices": {
+            "standard": 22, 
+            "student": 15, 
+            "gold": 30
+        }, 
+        "screenings": [
+            {
+                "time": "2026-10-27T04:15:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": false
+            },
+            {
+                "time": "2026-10-28T23:30:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": true
+            }
+        ]
+    },
+    {
+        "title": "How to Make Millions Before Grandma Dies",
+        "year": "2024",
+        "genre": ["Thai", "Coming-of-Age", "Comedy", "Drama", "Family"],
+        "agerating": "PG",
+        "runtime": "2h 5m",
+        "viewpref": ["Solo", "Friends", "Family"],
+        "description": "A man, driven by his desire for a multi-million dollar inheritance, begins to care for his terminally ill grandmother. However, winning her favor will not be an easy task and he is not the only one with an eye on the money.",
+        "image": "images/htmmbgd.jpg",
+        "ticketprices": {
+            "standard": 20, 
+            "student": 13, 
+            "gold": 25
+        }, 
+        "screenings": [
+            {
+                "time": "2026-10-28T04:15:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": true
+            },
+            {
+                "time": "2026-10-29T02:30:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": true
+            }
+        ]
+    },
+    {
+        "title": "Doraemon: Nobita and the New Steel Troops: ~Winged Angels~",
+        "year": "2011",
+        "genre": ["Japanese", "Animation", "Science Fiction", "Alien Invasion"],
+        "agerating": "PG",
+        "runtime": "1h 48m",
+        "viewpref": ["Family"],
+        "description": "Nobita and Doraemon find a giant robot in pieces. However, it turned out to be a destructive weapon, owned by a space robot kingdom who are looking to retrieve it. Will Nobita and gang be able to save earth from an imminent invasion?",
+        "image": "images/newsteelarmy.jpg",
+        "ticketprices": {
+            "standard": 20, 
+            "student": 13, 
+            "gold": 25
+        }, 
+        "screenings": [
+            {
+                "time": "2026-10-29T03:15:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": false
+            },
+            {
+                "time": "2026-10-30T02:30:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": true
+            }
+        ]
+    },
+    {
+        "title": "Whiplash",
+        "year": "2014",
+        "genre": ["Music", "Drama"],
+        "agerating": "R",
+        "runtime": "1h 46m",
+        "viewpref": ["Solo"],
+        "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+        "image": "images/whiplash.jpg",
+        "ticketprices": {
+            "standard": 20, 
+            "student": 13, 
+            "gold": 25
+        }, 
+        "screenings": [
+            {
+                "time": "2026-10-30T01:45:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": true
+            },
+            {
+                "time": "2026-10-30T03:15:00.000Z",
+                "location": "Hawthorn, Glenferrie",
+                "available": true
+            }
+        ]
+    }
+]
